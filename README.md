@@ -1,52 +1,80 @@
-IGCSE Statistics Python Projects
+# 📊 IGCSE Statistics Python Projects
 
-This repository contains a collection of small Python projects I’m building while studying the Edexcel International GCSE Statistics curriculum.
+This repository contains a collection of small Python projects I’m building while studying the **Edexcel International GCSE Statistics** curriculum.
 
-Each project focuses on turning statistical concepts into code-based tools such as calculators, simulations, and visualisations using Python.
+Each project turns statistical concepts into **interactive tools**, such as calculators, simulations, and visualisations using Python.
 
-📊 Purpose
+---
 
-The goal of this repo is to:
+## 🎯 Purpose
 
-Reinforce key IGCSE Statistics concepts through coding
-Build practical understanding of formulas and data handling
-Create visual representations of statistical ideas
-Practice Python programming in a meaningful way
-🧰 Tools & Libraries
+This project is designed to help me:
 
-Most projects use:
+- Reinforce key IGCSE Statistics concepts through coding  
+- Understand formulas by implementing them in Python  
+- Create visualisations of statistical data and distributions  
+- Improve my programming skills in a practical way  
 
-Python 3
-Matplotlib for graphs and visualisations
-Built-in Python libraries like math and statistics
-Occasionally numpy or pandas for handling data (if needed)
-📁 Project Ideas Included
+---
 
-You may find (or I will add) projects like:
+## 🧰 Tools & Libraries
 
-Mean, median, mode calculators
-Standard deviation and variance calculators
-Box plot and histogram generators
-Probability simulators (dice, coins, etc.)
-Cumulative frequency graphs
-Scatter plots and line of best fit tools
-📈 Example Use
+These projects mainly use:
 
-Instead of manually calculating statistics, these scripts allow you to:
+- Python 3  
+- :contentReference[oaicite:0]{index=0} — for graphs and visualisations  
+- Built-in modules like `math` and `statistics`  
+- Occasionally `numpy` and `pandas` for data handling  
 
-Input raw data
-Instantly get results
-Visualise distributions and patterns
-Check your working for revision
-🎯 Why I Made This
+---
 
-I wanted a way to make statistics more interactive instead of just memorising formulas. By coding each topic, I can see how the maths works in practice and improve both my programming and exam skills.
+## 📁 Project Features
 
-🚀 Future Improvements
-Add a simple menu system to run all tools from one program
-Improve graph styling and interactivity
-Expand into full revision dashboards
-Possibly turn some tools into a small GUI app
-📌 Note
+This repository includes (or will include) projects such as:
 
-These projects are built for learning purposes alongside the Edexcel IGCSE Statistics syllabus.
+### 📌 Descriptive Statistics
+- Mean, median, mode calculators  
+- Range, variance, and standard deviation tools  
+
+### 📊 Data Visualisation
+- Box plots (with outliers)  
+- Histograms  
+- Cumulative frequency graphs  
+- Scatter plots and line of best fit  
+
+### 🎲 Probability Simulations
+- Coin toss simulator  
+- Dice roll experiments  
+- Basic probability calculators  
+
+---
+
+## 📈 Example Workflow
+
+Instead of doing everything manually, you can:
+
+1. Input a dataset  
+2. Run a script  
+3. Get instant statistical results  
+4. Visualise the data using graphs  
+
+---
+
+## 🚀 Future Plans
+
+- Combine all tools into a single menu-driven program  
+- Improve graph styling and consistency  
+- Add interactive dashboards  
+- Possibly build a simple GUI version  
+
+---
+
+## 🧠 Why I Made This
+
+I wanted to move beyond memorising formulas and actually **see statistics in action**. Coding each topic helps me understand how the maths works under the hood while improving my Python skills at the same time.
+
+---
+
+## 📌 Note
+
+This project is built for **educational purposes** alongside the Edexcel IGCSE Statistics syllabus.GCSE Statistics syllabus.

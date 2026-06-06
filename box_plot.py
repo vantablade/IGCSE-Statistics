@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import statistics
 
 numbers = []
 outliers = []
@@ -20,11 +21,26 @@ elif len(numbers) < 2:
     print('At least two values are required.')
     exit()
 
-q1_index = 0.25 * (len(numbers) + 1)
-median_index = 0.5 * (len(numbers) + 1)
-q3_index = 0.75 * (len(numbers) + 1)
+q1, median, q3 = statistics.quantiles(numbers, n=4)
+print(f"Lower Quartile (Q1): {q1}")
+print(f"Median (Q2): {median}")
+print(f"Upper Quartile (Q3): {q3}")
 
-print(q1_index, median_index, q3_index)
+interquartile_range = q3 - q1
+print(f"Interquartiles Range: {interquartile_range}")
+
+small_outlier = q1 - 1.5 * interquartile_range
+large_outlier = q3 + 1.5 * interquartile_range
+print(f'Anything <{small_outlier} or >{large_outlier} is an outlier')
+
+for n in numbers:
+    if n < small_outlier or large_outlier:
+        outliers.append(n)
+
+if len(outliers) > 0:
+    print(f'Outliers: {outliers}')
+else:
+    print('There are no outliers')
 
 plt.boxplot(
     numbers,

@@ -36,6 +36,6 @@ for n in numbers:
         outliers.append(n)
 
 if len(outliers) > 0:     
-    print(f'The outliers are: {outliers}')
+    print(f'The outliers are: {outliers} (outlier is deined as a value more than 3 standard deviations from the mean).')
 else:
-    print('There are no outliers.')
+    print('There are no outliers (outlier is deined as a value more than 3 standard deviations from the mean).')

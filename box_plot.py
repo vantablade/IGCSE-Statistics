@@ -29,12 +29,12 @@ print(f"Upper Quartile (Q3): {q3}")
 interquartile_range = q3 - q1
 print(f"Interquartiles Range: {interquartile_range}")
 
-small_outlier = q1 - 1.5 * interquartile_range
-large_outlier = q3 + 1.5 * interquartile_range
+small_outlier = q1 - (1.5 * interquartile_range)
+large_outlier = q3 + (1.5 * interquartile_range)
 print(f'Anything <{small_outlier} or >{large_outlier} is an outlier')
 
 for n in numbers:
-    if n < small_outlier or large_outlier:
+    if n < small_outlier or n > large_outlier:
         outliers.append(n)
 
 if len(outliers) > 0:
